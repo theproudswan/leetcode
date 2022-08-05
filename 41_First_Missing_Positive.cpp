@@ -1,4 +1,4 @@
-// O(n)    
+// O(nlogn)    
 
 int firstMissingPositive(vector<int>& nums) {
         sort(begin(nums), end(nums));
